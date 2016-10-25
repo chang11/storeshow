@@ -1,0 +1,259 @@
+
+.bg_white {
+	height: 20px;
+	background-color: #fff;
+}
+.infobox {
+	position: relative;
+	height: 160px;
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+.info_bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.info_bg img {
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+.info {
+	position: absolute;
+	top: 49px;
+	z-index: 66;
+	width: 97%;
+	margin-left: 2%;
+}
+.info dl dt,.info dl dt a,.info dl dt img {
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.info dl dt {
+	float: left;
+	margin-right: 2px;
+}
+.info dl dd {
+	width: 80%;
+	float: left;
+}
+.info dl dd h2 {
+	float: left;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    padding-left: 10px;
+    height: 24px;
+    width: 97%;
+    padding: 0 1.5%;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.info dl dd h2 span{
+	width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 4px;
+    background-color: #fff;
+}
+.info dl dd h2 span img {
+	width: 12px;
+	height: 12px;
+	margin-top: 3px;
+    vertical-align: top;
+}
+.info dl dd ul{
+    margin-left: 4px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.info dl dd ul li {
+	float: left;
+	width: 25%;
+    font-size: 9px;
+    color: #fff;
+}
+.info dl dd ul li img{
+	width: 11px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.address {
+	height: 24px;
+	line-height: 24px;
+	margin-left: 65px;
+}
+.address p {
+	display: inline-block;
+	width: 65%;
+	font-size: 10px;
+}
+.address p img{
+	display: inline-block;
+    width: 11px;
+    height: 14px;
+    margin-top: 5px;
+    margin-right: 8px;
+    vertical-align: top;
+}
+.address a {
+	display: inline-block;
+	width: 70px;
+	background: #ff6c6d;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+.notice {
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.notice p img {
+	width: 15px;
+	height: 12px;
+	margin-right: 5px;
+}
+
+.links {
+	width: 100%;
+	background-color: #fff;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+.links .top_bg{
+	width: 100%;
+}
+.links .top_bg img {
+	display: block;
+	width: 100%;
+}	
+.links a {
+	display: inline-block;
+	width: 47%;
+	padding: 5px 0 0 1.5%;
+}
+.links a img {
+	display: inline-block;
+	width: 100%;
+
+}
+.links .link {
+	background-color: #f82f6a;
+}
+.goods .hotsale {
+	margin-bottom: 5px;
+	background-color: #fff;
+}
+.goods .hotsale h3{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #000;
+	text-align: center;
+
+}
+.hotsale .sale_info {
+	width: 100%;
+	padding-bottom: 10px;
+}
+.hotsale .sale_info dl {
+	display: inline-block;
+	width: 30%;
+	margin-left: 6px;
+}
+.hotsale .sale_info dl dt a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.hotsale .sale_info dl dt a img {
+	width: 100%;
+}
+.hotsale .sale_info dl dd {
+	font-size: 12px;
+	text-align: center;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.kans_top {
+	color: #fff;
+    height: 65px;
+    text-align: center;
+    background: url("../images/kans_Beauty.png") no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.kans_top.health_foods {
+	background: url("../images/kans_Health.png") no-repeat;
+    background-size: 100%;
+	
+}
+.kans_store.health_foods {
+	background-color: #ff7a6b;
+	
+}
+.kans_top p:nth-child(1) {
+	font-size: 20px;
+	line-height: 40px;
+}
+.kans_top a {
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.kans_store {
+	padding: 0 3%;
+	background-color: #f96a93;
+	padding-bottom: 5px;
+}
+.kans_store dl {
+	display: inline-block;
+	width: 49%;
+	padding-top: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.kans_store dl dt img {
+	width: 95%;
+}
+.kans_store dl dd {
+	position: relative;
+}
+.kans_store dl dd span {
+	position: absolute;
+    left: 50%;
+    bottom: 25px;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: -25px;
+    color: #ff436a;
+    border-radius: 15px;
+    /* border: 1px solid; */
+    box-shadow: 0px 1px 1px #e3e3e3;
+}
+.kans_store dl dd p {
+	background: #f6f6f6;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 30px;
+    line-height: 35px;
+    text-align: center;
+}
